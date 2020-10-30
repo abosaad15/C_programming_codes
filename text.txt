@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+  int number_of_shelves;
+  scanf("%d",&number_of_shelves);
+
+  int number_of_requests;
+  scanf("%d", &number_of_requests);
+
+  while (number_of_requests--) {
+    int type_of_inqury;
+    scanf("%d",&type_of_inqury);
+
+    if (type_of_inqury == 1) {}
+    else if (type_of_inqury == 2){}
+    else if (type_of_inqury == 3){}
+    else {
+      printf("Error, enter number 1,2 or 3\n");
+    }
+  }
+
+}
